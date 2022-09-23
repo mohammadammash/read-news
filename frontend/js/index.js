@@ -20,11 +20,10 @@ const showNews = (news) => {
 
 // fetch/get data from all_news_api
 const getAllNews = () => {
-  let all_news;
   const get_all_news_API = "http://localhost/read-news/backend/get_allnews.php";
   $.getJSON(get_all_news_API, { format: "json" })
     .done((data) => showNews(data))
-    .fail((err) => consolee.log(err));
+    .fail((err) => console.log(err));
 };
 
 // on load get all news from db:
