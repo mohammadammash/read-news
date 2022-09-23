@@ -9,21 +9,30 @@
     <!-- loading CSS after bootstrap, so i can overwrite it -->
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  <body>
-    <h1>all news</h1>
-    <main>
-      <div>
-        <h2>
+
+  <body class="bg-danger">
+    <!-- display-1(large-title)-text-center like CSS- UpperCase text- margin-top:5 (max-margin bootstrap)
+    <h1 class="display-1 text-center text-uppercase mt-5">all news</h1>
+    row like grid/ mx: right and left margin / font-famiy / for medium and more screen width: justify-content-center  / for xlarge screen width: space-between / gap as default 5 but for md and more screen: it will become 2
+    <main
+      class="row mx-5 font-monospace justify-content-md-center justify-content-xl-between gap-5 gap-md-2"
+    >
+    by default take the whole grid(rows: 12 columns)/ for md and more 5 columns it will take, then 3 for more/ border(create border)/ border-2 width size / rounded border
+      <div class="col-12 col-md-5 col-xl-3 border border-2 rounded">
+        display-4 4th screen text / capitalized  and underlined / text-warning (yellow color)
+        <h2 class="display-4 text-capitalize text-decoration-underline text-warning">
           title
         </h2>
-        <p>
+        font-size:3 in bootstrap / with lineheight large
+        <p class="fs-3 lh-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           mollitia natus laboriosam porro atque error libero aut exercitationem
           accusantium nesciunt.
         </p>
-        <span>~Date</span>
-      </div>
-    </main>
+        font-size:6 in bootstrap / muted(disabled text)
+        <span class="fs-6 text-muted">~Date</span>
+      </div> -->
+      
 
     <script src="./js/index.js"></script>
   </body>
